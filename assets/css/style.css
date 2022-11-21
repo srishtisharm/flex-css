@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: deeppink;
+}
+h1{
+    color: antiquewhite;
+    transition: 1s all;
+}
+.flex-container{
+    display: flex;
+}
+.box1{
+    flex: 20%;
+    background-color:blueviolet;
+    text-align: center;
+}
+h1:hover{
+    color: black;
+    background-color: tomato;
+}
+.box2{
+    flex: 80%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 70px;
+    transition: 1s all;
+}
+a:hover{
+    color: black;
+    background-color: cadetblue;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 40px;
+}
+ul{
+    margin-left: 90px;
+}
+.slider{
+    height: 700px;
+    width: 100%;
+    background-color: yellowgreen;
+    animation: hello;
+    animation-duration: 2s;
+    animation-delay: 2s all;
+    animation-iteration-count: infinite;
+}
+@keyframes hello{
+    from{
+        background-color: yellowgreen;
+    }
+    to{
+        background-color: bisque;
+    }
+}
